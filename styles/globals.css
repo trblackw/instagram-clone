@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background: #c6ffdd; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #802abb, #db0e9a, #ff4573, #ff8555, #ffc14d, #f9f871); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #802abb, #db0e9a, #ff4573, #ff8555, #ffc14d, #f9f871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-blend-mode: darken, luminosity;
+}
